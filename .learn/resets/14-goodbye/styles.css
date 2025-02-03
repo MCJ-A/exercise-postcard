@@ -1,0 +1,78 @@
+body {
+	body {
+		background: black; /* Fondo negro para el body */
+		display: flex;
+		justify-content: center; /* Centrar horizontalmente */
+	}
+}
+* {
+	border: 1px dashed red;
+	min-height: 10px;
+}
+
+p {
+	color: blue;
+}
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+	flex: auto;
+	position: relative;
+}
+.postcard-header {
+	display: flex;
+	width: 50px;
+	height: 50px;
+	position: relative;
+}
+
+.postcard-header img {
+	text-align: center;
+	justify-content: center;
+	display: flex;
+	flex: auto;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+}
+
+.postcard-header h1 {
+	flex: auto;
+	width: auto;
+	margin: auto;
+}
+.elemento-superior {
+	width: 300px; /* Ancho fijo para ambas columnas */
+	margin: 10px; /* Espacio entre las columnas */
+}
+
+.postcard-body {
+	display: flex;
+}
+
+.body-left,
+.body-right {
+	padding: 1.2rem;
+	grid-template-columns: 50%;
+}
+
+.body-right input {
+	border: 50px;
+	border-bottom: 50px;
+}
+
+.elemento-inferior {
+	width: 300px; /* Ancho fijo para ambas columnas */
+	margin: 10px; /* Espacio entre las columnas */
+}
+
+.inputs {
+	display: grid;
+}
+
+.postcard-footer {
+	text-align: center;
+	padding: 1.2rem;
+}

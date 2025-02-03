@@ -1,0 +1,30 @@
+body {
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+#postcard {
+	flex: auto;
+	position: relative;
+}
+#div-superior {
+	display: flex;
+}
+.elemento-superior {
+	width: 300px; /* Ancho fijo para ambas columnas */
+	margin: 10px; /* Espacio entre las columnas */
+}
+
+#div-intermedio {
+	display: flex;
+}
+
+.elemento-inferior {
+	width: 300px; /* Ancho fijo para ambas columnas */
+	margin: 10px; /* Espacio entre las columnas */
+}
+
+.inputs {
+	display: grid;
+}
+
+#button {
+}
