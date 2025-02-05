@@ -1,0 +1,17 @@
+body {
+	background: black;
+}
+* {
+	border: 1px dashed red;
+	min-height: 10px;
+}
+
+p {
+	color: blue;
+}
+
+.postcard {
+	background: white;
+	height: 400px;
+	margin: auto;
+}
